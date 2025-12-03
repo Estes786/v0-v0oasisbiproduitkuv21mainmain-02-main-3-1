@@ -1,10 +1,10 @@
 module.exports = {
   apps: [
     {
-      name: 'oasis-bi-pro-main',
+      name: 'oasis-bi-pro',
       script: 'npm',
       args: 'run dev',
-      cwd: '/home/user/oasis-bi-pro-main',
+      cwd: '/home/user/webapp/oasis-bi-pro',
       env: {
         NODE_ENV: 'development',
         PORT: 3000
